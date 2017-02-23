@@ -1,0 +1,35 @@
+{
+  "name": "jobtracker",
+  "version": "1.0.0",
+  "description": "An app used to track jobs and their discriptions",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/gulp/bin/gulp",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bonecrushereb/JobTracker.git"
+  },
+  "author": "Ben Nolan https://github.com/bonecrushereb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bonecrushereb/JobTracker/issues"
+  },
+  "homepage": "https://github.com/bonecrushereb/JobTracker#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-mocha": "^4.0.1"
+  }
+}
